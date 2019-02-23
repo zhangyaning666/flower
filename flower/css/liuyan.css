@@ -1,0 +1,295 @@
+/*导航*/
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+/*行内元素*/
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition:color linear .5s;  /*过渡时间*/
+}
+/*鼠标移入*/
+.navList li a:hover{
+    color: #16b0bc;
+}
+
+.top{
+    width: 100%;
+    height: 120px;
+    background: #F1F1F1;
+    text-align: center;
+    margin-top: 79px;
+}
+.title{
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+}
+h1{
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 10px 30px;
+}
+
+.box{
+    width: 100%;
+    height: 820px;
+    background: #f2f2f2;
+}
+.container{
+    width: 1280px;
+    height: 820px;
+    /*background: blue;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    float: left;
+    width: 878px;
+    height: 820px;
+    /*background: red;*/
+}
+
+.content{
+    width: 780px;
+    height: 720px;
+    background: #ffffff;
+    padding: 30px;
+}
+
+.content .contentList{
+    width: 780px;
+    /*height: 79px;*/
+    border-bottom: 1px solid #f0f2f5;
+    /*background: yellow;*/
+}
+.listContent{
+    width: 690px;
+    height: 79px;
+    padding: 2px 0;
+    margin-top: 11px;
+}
+
+/*                             */
+.active{
+    height: 131px;
+}
+
+
+
+.left{
+    float: left;
+    width: 46px;
+    height: 53px;
+}
+.listContent .left img{
+    width: 36px;
+    height: 36px;
+}
+
+.right{
+    float: right;
+    width: 642px;
+    height: 53px;
+}
+.right .small{
+    width: 642px;
+    height: 16px;
+    font-size: 14px;
+    color: #a3afb7;
+    margin-bottom: 11px;
+}
+.small p.left{
+    width: 50px;
+    height: 16px;
+}
+.small p.right{
+    width: 150px;
+    height: 16px;
+}
+.right p.discuss{
+    width: 642px;
+    height: 21px;
+    font-size: 14px;
+    color: #a3afb7;
+    margin-bottom: 11px;
+}
+
+
+.listContent .response{
+    width: 642px;
+    height: 60px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+.response p.huifu{
+    line-height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.form{
+    float: right;
+    width: 330px;
+    height: 474px;
+    background: #ffffff;
+    margin-left: 30px;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    color: #a3afb7;
+}
+.formContent{
+    width: 330px;
+    height: 464px;
+    /*background: red;*/
+}
+.formContent input{
+    width: 300px;
+    height: 36px;
+    /*background: yellow;*/
+    margin-bottom: 20px;
+    box-shadow: none;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+.formContent textarea{
+    display: block;
+    width: 300px;
+    height: 124px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+
+.form-group input{
+    float: left;
+    width: 171px;
+    height: 36px;
+}
+.form-group span{
+    float: right;
+    width: 96px;
+    height: 36px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1;
+    color: #76838f;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-left: none;
+    border-radius: 3px;
+}
+.form-group span img{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.formContent button{
+    display: block;
+    width: 330px;
+    height: 36px;
+    background-color: #62a8ea;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+
+
+/*底部*/
+.bottom{
+    width: 100%;
+    height: 162px;
+    background: #f5f5f5;
+    margin-top: 20px;
+}
+.botIcon{
+    width: 1170px;
+    height: 50px;
+    margin: auto;
+    /*background: yellow;*/
+    text-align: center;
+}
+.botIcon img{
+    padding: 10px;
+    width: 36px;
+    height: 36px;
+}
+.choose{
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.choose a{
+    color: #62a8ea;
+}
+.choose a:hover{
+    text-decoration: underline;
+}
+.bottom p.phone{
+    color: #aaaaaa;
+    text-align: center;
+    line-height: 30px;
+}
